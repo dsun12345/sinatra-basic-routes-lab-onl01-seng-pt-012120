@@ -4,7 +4,7 @@ class App < Sinatra::Base
   
   get '/name' do 
     "My name is "
-    erb : 'name/index.'
+    erb : 'name/index.html.erb'
   end 
   
   
